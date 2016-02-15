@@ -226,7 +226,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {140529465,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
@@ -446,7 +446,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 107315308
 now = os.time()
 math.randomseed(now)
 started = false
